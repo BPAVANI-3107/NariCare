@@ -1,0 +1,26 @@
+{
+  "title": "Medical Language Translator",
+  "description": "Translate medical terminology into plain language so users can understand what to ask their healthcare provider.",
+  "input": {
+    "id": "medical_term",
+    "label": "Medical Term to Explain",
+    "type": "text",
+    "required": false,
+    "placeholder": "Paste a medical term from your report or prescription here.",
+    "examples": [
+      "menorrhagia",
+      "polycystic",
+      "hypothyroidism"
+    ],
+    "why": "Medical language can be confusing. NariCare translates it into plain language so you know what to ask your doctor."
+  },
+  "output": {
+    "type": "plain_language_explanation",
+    "include": [
+      "simple_meaning",
+      "why_it_might_be_mentioned",
+      "questions_to_ask_provider",
+      "uncertainty_notice"
+    ]
+  }
+}
