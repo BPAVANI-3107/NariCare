@@ -1,0 +1,34 @@
+{
+  "title": "Your Privacy and Safety",
+  "principles": [
+    {
+      "icon": "lock",
+      "title": "We ask only what we need",
+      "description": "NariCare collects only information needed to provide general health-navigation guidance."
+    }
+  ],
+  "does": [
+    "Provide general health navigation information",
+    "Check for potential red flags",
+    "Adapt communication to accessibility needs",
+    "Help users prepare for healthcare conversations",
+    "Communicate uncertainty clearly",
+    "Respond in the user's preferred language"
+  ],
+  "does_not": [
+    "Diagnose any condition",
+    "Replace professional medical advice",
+    "Store health data persistently in this prototype",
+    "Require Aadhaar, address, or sensitive identification",
+    "Make health concern selection mandatory",
+    "Claim production-grade authentication"
+  ],
+  "accessibility_commitment": {
+    "title": "Accessibility Commitment",
+    "description": "NariCare is designed from the beginning for blind, deaf or hard-of-hearing, and non-disabled users. The AI adapts its communication style, not just its content, based on accessibility preferences."
+  },
+  "prototype_disclosure": {
+    "title": "Prototype Disclosure",
+    "description": "This is a PartyRock prototype demonstrating NariCare's AI-powered health navigation engine. A production system would integrate secure authentication, persistent user profiles, and appropriate healthcare privacy compliance."
+  }
+}
