@@ -1,0 +1,98 @@
+{
+  "app_name": "NariCare",
+  "tagline": "Understand. Navigate. Care.",
+
+  "onboarding": {
+    "title": "Begin Your NariCare Journey",
+    "description": "Fill in your preferences below to begin your NariCare journey."
+  },
+
+  "accessibility": {
+    "title": "My Accessibility Needs",
+    "none": "I don't need accessibility support",
+    "blind_low_vision": "Blind or low vision",
+    "deaf_hard_of_hearing": "Deaf or hard of hearing",
+    "mobility": "Mobility support",
+    "cognitive": "Cognitive or learning support",
+    "other": "Other"
+  },
+
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "telugu": "Telugu"
+  },
+
+  "explanation_level": {
+    "label": "Explanation Level",
+    "simple": "Simple",
+    "detailed": "Detailed"
+  },
+
+  "age": {
+    "label": "Your Age"
+  },
+
+  "health": {
+    "topic": "What would you like help with today?",
+    "concern": "Describe Your Health Concern",
+    "concern_placeholder": "Describe what you have been noticing in your own words. You do not need medical terminology.",
+    "concern_example": "My periods have been irregular for 3 months and I feel very tired.",
+    "duration": "How Long Have You Noticed This?",
+    "duration_placeholder": "e.g. 2 weeks, 3 months"
+  },
+
+  "navigation": {
+    "safety_guardian": "Safety Guardian",
+    "next_step": "Your Next Step",
+    "help_me_say_it": "Help Me Say It",
+    "doctor_ready": "DoctorReady Conversation Card"
+  },
+
+  "medical_translator": {
+    "title": "Medical Language Translator",
+    "term": "Medical Term to Explain",
+    "placeholder": "Paste a medical term from your report or prescription here.",
+    "example": "Example: menorrhagia, polycystic, hypothyroidism",
+    "description": "Medical language can be confusing. NariCare translates it into plain language so you know what to ask your doctor."
+  },
+
+  "privacy": {
+    "title": "Your Privacy and Safety",
+    "principles": "NariCare Privacy and Safety Principles",
+    "we_do": "What NariCare DOES",
+    "we_do_not": "What NariCare does NOT do",
+    "ask_only_needed": "We ask only what we need",
+    "no_diagnosis": "NariCare does not diagnose any condition.",
+    "no_replacement": "NariCare does not replace professional medical advice.",
+    "no_persistent_storage": "The prototype does not persistently store health data.",
+    "no_sensitive_id": "NariCare does not require Aadhaar, address, or sensitive identification.",
+    "uncertainty": "NariCare communicates uncertainty clearly."
+  },
+
+  "accessibility_commitment": {
+    "title": "Accessibility Commitment",
+    "description": "NariCare is designed from the beginning for blind, deaf or hard-of-hearing, and non-disabled users. The AI adapts its communication style, not just its content, based on accessibility preferences."
+  },
+
+  "prototype": {
+    "title": "Prototype Disclosure",
+    "description": "This is a PartyRock prototype demonstrating NariCare's AI-powered health navigation engine. A production system would integrate secure authentication, persistent user profiles, and appropriate healthcare privacy compliance."
+  },
+
+  "voice_assistant": {
+    "title": "Voice Assistant and Screen Reader Guide",
+    "description": "NariCare is designed to work with screen readers and assistive technologies."
+  },
+
+  "keyboard": {
+    "tab": "Move to the next input field or button",
+    "shift_tab": "Move to the previous field",
+    "enter_space": "Select an option or activate a button",
+    "arrow_keys": "Move through dropdown options"
+  },
+
+  "footer": {
+    "tagline": "Turn \"I don't know whether this matters\" into \"I understand my next step.\""
+  }
+}
