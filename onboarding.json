@@ -1,0 +1,85 @@
+{
+  "prototype_note": "In a production NariCare app, users would sign in via secure federated login such as Google, Apple, or Amazon. This PartyRock prototype demonstrates the AI-powered health navigation engine.",
+  "onboarding": {
+    "title": "Begin Your NariCare Journey",
+    "description": "Fill in your preferences below to begin your NariCare journey.",
+    "fields": [
+      {
+        "id": "accessibility_needs",
+        "label": "My Accessibility Needs",
+        "type": "select",
+        "required": false,
+        "options": [
+          "I don't need accessibility support",
+          "Blind or low vision",
+          "Deaf or hard of hearing",
+          "Mobility support",
+          "Cognitive or learning support",
+          "Other"
+        ]
+      },
+      {
+        "id": "language",
+        "label": "Language",
+        "type": "select",
+        "required": false,
+        "options": [
+          "English",
+          "Telugu"
+        ],
+        "default": "Telugu"
+      },
+      {
+        "id": "explanation_level",
+        "label": "Explanation Level",
+        "type": "select",
+        "required": false,
+        "options": [
+          "Simple",
+          "Detailed"
+        ],
+        "default": "Simple"
+      },
+      {
+        "id": "age",
+        "label": "Your Age",
+        "type": "number",
+        "required": true,
+        "example": 17
+      },
+      {
+        "id": "health_topic",
+        "label": "What would you like help with today",
+        "type": "select",
+        "required": false,
+        "options": [
+          "Periods",
+          "Pain",
+          "Fatigue",
+          "Hormonal concerns",
+          "Pregnancy-related questions",
+          "Mental wellbeing",
+          "General health concern",
+          "Prefer not to say"
+        ]
+      },
+      {
+        "id": "health_concern",
+        "label": "Describe Your Health Concern",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Describe what you have been noticing in your own words. You do not need medical terminology.",
+        "example": "My periods have been irregular for 3 months and I feel very tired.",
+        "why": "Your description helps NariCare provide relevant health-navigation information. We ask only what is needed."
+      },
+      {
+        "id": "duration",
+        "label": "How Long Have You Noticed This",
+        "type": "text",
+        "required": false,
+        "placeholder": "e.g. 2 weeks, 3 months",
+        "why": "Duration helps NariCare provide more relevant general health-navigation information."
+      }
+    ]
+  }
+}
