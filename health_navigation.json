@@ -1,0 +1,35 @@
+{
+  "modules": [
+    {
+      "id": "safety_guardian",
+      "title": "Safety Guardian",
+      "description": "Checks for potential warning signs and helps users understand when professional medical care may be needed.",
+      "purpose": "Identify potential red flags without diagnosing."
+    },
+    {
+      "id": "next_step",
+      "title": "Your Next Step",
+      "description": "Provides general health-navigation guidance based on the information provided.",
+      "purpose": "Help users understand what they can consider doing next."
+    },
+    {
+      "id": "help_me_say_it",
+      "title": "Help Me Say It",
+      "description": "Helps users turn their concerns into clear questions they can share with a healthcare provider.",
+      "purpose": "Improve healthcare communication."
+    },
+    {
+      "id": "doctor_ready",
+      "title": "DoctorReady Conversation Card",
+      "description": "Creates a concise conversation guide that users can take to a healthcare appointment.",
+      "purpose": "Prepare users for meaningful healthcare conversations."
+    }
+  ],
+  "safety_rules": {
+    "diagnosis": false,
+    "medical_replacement": false,
+    "professional_advice": true,
+    "uncertainty_communication": true,
+    "red_flag_detection": true
+  }
+}
