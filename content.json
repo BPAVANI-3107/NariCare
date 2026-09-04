@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "NariCare",
+    "tagline": "Understand. Navigate. Care.",
+    "description": "A multilingual, accessibility-first health-navigation platform for women.",
+    "purpose": "Help users understand health concerns, recognize when care may be needed, and prepare for meaningful conversations with healthcare providers.",
+    "principles": [
+      "Privacy-first",
+      "Accessibility-first",
+      "Multilingual",
+      "Navigate, don't diagnose"
+    ]
+  },
+  "hero": {
+    "title": "Your Personal Health Guide",
+    "subtitle": "Turn \"I don't know whether this matters\" into \"I understand my next step.\"",
+    "image_prompt": "A premium realistic healthcare app hero image showing a friendly professional female doctor on the right side, with clean empty space on the left for NariCare text and buttons. Modern bright healthcare environment with soft lavender, light blue and white colors, subtle plants, accessibility representation, realistic professional photography, soft natural lighting and premium AI healthcare startup aesthetic.",
+    "image_position": "right"
+  },
+  "features": [
+    {
+      "name": "Privacy-first",
+      "icon": "lock"
+    },
+    {
+      "name": "Accessibility-first",
+      "icon": "accessibility"
+    },
+    {
+      "name": "Multilingual",
+      "icon": "language"
+    },
+    {
+      "name": "Navigate, don't diagnose",
+      "icon": "medical"
+    }
+  ]
+}
