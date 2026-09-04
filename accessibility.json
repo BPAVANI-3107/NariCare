@@ -1,0 +1,49 @@
+{
+  "title": "Voice Assistant and Screen Reader Guide",
+  "description": "NariCare is designed to work with screen readers and assistive technologies.",
+  "screen_readers": [
+    {
+      "device": "iPhone / iPad",
+      "screen_reader": "VoiceOver",
+      "activation": "Settings → Accessibility → VoiceOver → Turn On"
+    },
+    {
+      "device": "Android",
+      "screen_reader": "TalkBack",
+      "activation": "Settings → Accessibility → TalkBack → Turn On"
+    },
+    {
+      "device": "Windows PC",
+      "screen_reader": "NVDA",
+      "activation": "Install NVDA and use the configured keyboard shortcut to start it."
+    },
+    {
+      "device": "Windows PC",
+      "screen_reader": "Narrator",
+      "activation": "Windows + Ctrl + Enter"
+    },
+    {
+      "device": "Mac / MacBook",
+      "screen_reader": "VoiceOver",
+      "activation": "Command + F5"
+    }
+  ],
+  "keyboard_navigation": [
+    {
+      "key": "Tab",
+      "action": "Move to the next input field or button"
+    },
+    {
+      "key": "Shift + Tab",
+      "action": "Move to the previous field"
+    },
+    {
+      "key": "Enter / Space",
+      "action": "Select an option or activate a button"
+    },
+    {
+      "key": "Arrow keys",
+      "action": "Move through dropdown options"
+    }
+  ]
+}
